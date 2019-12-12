@@ -7,6 +7,7 @@ TestNG runner class is used for running the test.
 Tests in feature file contains tags (eg: @Test1,@PetTest etc). Set of test with similar feature tags can be run using the maven command "mvn test verify -Dcucumber.options="--tags @PetTest"
 
 POM.xml has build tags for generating feature-view cucumber html reports which if not run as an maven will not be generated.
+"cucumber-html-reports.zip" [overview-features.html] contains sample cucumber html report.
 
 "config.properties" file contains the base urls of the application. Any change to url is to be updated here.
 
