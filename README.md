@@ -2,6 +2,7 @@
 Sample framework for API testing with Rest Assured,Cucumber and TestNG. 
 
 Framework makes use of RestAssuared API for performing webservice operation and Cucumber framework for achiveing BDD approach.
+Cucumber feature file location : "/src/test/java/features/"
 TestNG runner class is used for running the test.
 
 Tests in feature file contains tags (eg: @Test1,@PetTest etc). Set of test with similar feature tags can be run using the maven command "mvn test verify -Dcucumber.options="--tags @PetTest"
