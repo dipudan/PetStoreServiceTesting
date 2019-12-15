@@ -29,12 +29,3 @@ Feature:Test scenarios to verify PetStore Application REST Api services.
     Then  I verify the status of the order.
       |  Id     |  Status |
       |  1      |  placed |
-
-  @OrderTest @FullPack @NegativeCase
-  Scenario: Place an order to buy a pet and verify order status is cancelled.
-    Given I perform POST operation to place an order for pet.
-      |  Id     |  PetId    |  Quantity  |
-      |  1      |  1        |   45       |
-    Then  I verify the status of the order.
-      |  Id     |   Status  |
-      |  1      |  ordered  |
